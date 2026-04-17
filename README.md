@@ -1,18 +1,17 @@
-## Getting Started
+🥷 Exame Chunin - Simulador de Combates Java
+Este é um projeto desenvolvido para praticar os conceitos fundamentais de Programação Orientada a Objetos (POO) em Java. A temática é inspirada no universo de Naruto e nas aulas do "Mestre Jiraya" (DevDojo).
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O objetivo principal aqui foi aprender de forma divertida como as classes interagem entre si, saindo do básico e criando uma lógica de combate dinâmica.
 
-## Folder Structure
+🚀 O que este projeto pratica?
+Classes e Objetos: Estruturação da classe Ninja e GerenciadorExame.
 
-The workspace contains two folders by default, where:
+Encapsulamento: Controle de atributos como vida e poder.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Referência de Objetos: Métodos que recebem outros objetos como parâmetro (um Ninja atacando outro).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Estruturas de Repetição: Loop while para gerenciar os turnos da luta.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Entrada de Dados: Uso da classe Scanner para interação com o usuário.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Aleatoriedade: Uso da classe Random para sorteio de oponentes e dano crítico.
